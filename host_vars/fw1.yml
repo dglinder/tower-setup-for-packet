@@ -8,7 +8,7 @@ iptables_rules:
     jump: ACCEPT
   - chain: INPUT
     in_face: eth1
-    out_iface: eth2
+#    out_iface: eth2
     jump: DROP
 #  - chain: INPUT
 # policy: DROP
